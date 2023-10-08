@@ -21,7 +21,7 @@ export default function () {
       </button>
       {showForm ? (
         <div
-          className="absolute h-55 transition-all peer-focus-within:-top-6 w-80 gap-y-3 mt-1
+          className="absolute h-60 transition-all peer-focus-within:-top-6 w-80 gap-y-3 mt-1
           grid-cols-1 grid place-items-center bg-slate-500 opacity-60"
         >
           <Input label="Your Email" size="md" id="email" height={10}></Input>
