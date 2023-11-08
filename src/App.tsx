@@ -3,7 +3,7 @@ import NavigationBar from "./components/Navbar";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Contact from "./components/Contact";
+import Links from "./components/Links";
 import "./App.css";
 import { Input } from "@material-tailwind/react";
 
@@ -15,7 +15,7 @@ function App() {
         <About />
         <Projects />
         <Skills />
-        <Contact />
+        <Links />
       </main>
     </>
   );
