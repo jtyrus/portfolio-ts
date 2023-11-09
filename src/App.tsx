@@ -5,7 +5,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Links from "./components/Links";
 import "./App.css";
-import { Input } from "@material-tailwind/react";
 
 function App() {
   return (
@@ -16,6 +15,9 @@ function App() {
         <Projects />
         <Skills />
         <Links />
+        <div className="mt-5 h-32 flex justify-center">
+          <img className="m-5 h-24" src="./logo.png" alt="Logo" />
+        </div>
       </main>
     </>
   );

@@ -15,6 +15,11 @@ const LINKS: Link[] = [
     name: "Github",
     icon: "github-mark-white.png",
   },
+  {
+    url: "https://jordantyrus.com/files/JT_resume.pdf",
+    name: "Resume",
+    icon: "./pixel.png",
+  },
 ];
 export default function () {
   return (
